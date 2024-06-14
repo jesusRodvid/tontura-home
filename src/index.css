@@ -9,8 +9,25 @@
     src: url("fonts/VtksKrueza-BmGV.ttf") format("truetype");
   }
 
+  @font-face {
+    font-family: "Jack";
+    font-weight: normal;
+    src: url("fonts/JAck.TTF") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Birotezin";
+    font-weight: normal;
+    src: url("fonts/VtksBirotezin.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Smooth Pet";
+    font-weight: normal;
+    src: url("fonts/smoothpet.ttf") format("truetype");
+  }
   html {
-    font-family: "Krueza", sans-serif;
+    font-family: "Smooth Pet", sans-serif;
   }
 
   body {
