@@ -1,3 +1,3 @@
 export const EditionOne = () => {
-  return <div>EditionOne</div>;
-};
+    return <div>EditionOne</div>;
+  };
