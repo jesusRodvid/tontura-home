@@ -47,7 +47,6 @@ export const EditionOne = () => {
               LEE M&#193;S
             </Link>
           </div>
-          <div>Hola hola</div>
         </div>
       </div>
     </>
