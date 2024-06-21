@@ -26,11 +26,49 @@
     font-weight: normal;
     src: url("fonts/smoothpet.ttf") format("truetype");
   }
-  html {
-    font-family: "Smooth Pet", sans-serif;
+
+  @font-face {
+    font-family: "Times";
+    font-weight: normal;
+    src: url("fonts/times new roman.ttf") format("truetype");
   }
+
+  @font-face {
+    font-family: "Times";
+    font-weight: bold;
+    src: url("fonts/times new roman bold.ttf") format("truetype");
+  }
+
+  /* html {
+    font-family: "Times", sans-serif;
+  } */
 
   body {
     margin: 0;
+  }
+
+  #panel {
+    background: cadetblue;
+    text-align: justified;
+    height: auto;
+    width: auto;
+    padding: 20px 20px;
+    border: ridge 5px teal;
+  }
+
+  #read-more {
+    width: 800px;
+    height: 100px;
+    background-image: url(images/read.gif);
+    background-repeat: repeat-x;
+    background-blend-mode: screen;
+  }
+
+  #read1 {
+    width: 100px;
+    height: 50px;
+    background-image: url(images/readbook.gif);
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
   }
 }
