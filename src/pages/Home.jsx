@@ -6,9 +6,9 @@ export const Home = () => {
   return (
     <>
       <div className="relative bg-[#fcfbff] h-full w-full">
-        <nav className="absolute font-[SmoothPet] flex gap-20 text-3xl items-center justify-center lg:top-20 lg:left-[50vh] z-40">
+        <nav className="absolute font-[SmoothPet] flex flex-col lg:flex-row gap-10 text-2xl lg:gap-20 lg:text-3xl items-center justify-center top-[20vh] left-[30vw] lg:top-20 lg:left-[50vw]">
           <Link to="/ed-1" className="hover:text-red-500 hover:cursor-pointer">
-            [ed. 1]
+            Ediciones
           </Link>
           <Link
             to="/about-us"
@@ -22,16 +22,20 @@ export const Home = () => {
           >
             Instagram
           </Link>
-          <Link to="" className="hover:text-red-500 hover:cursor-pointer">
+          <Link
+            to="https://open.spotify.com/user/31ijyok47fxfkcbt3pqzq3hqxxay"
+            className="hover:text-red-500 hover:cursor-pointer"
+          >
             Spotify
           </Link>
         </nav>
-        <div className="absolute flex items-center justify-start bg-[url('images/tontura-titulo.GIF')] bg-contain lg:bg-contain bg-no-repeat -top-10 lg:bg-no-repeat bg w-1/2 h-1/2 lg:w-full lg:h-[1000px] z-20">
-          <div className="absolute flex flex-col lg:flex-row m-auto top-3/4 justify-center items-center text-2xl gap-10"></div>
 
-          <div className="absolute top-[70vh] h-3/4 w-full">
-            <ModelViewer scale="3" modelPath={"/images/kioskNEW.glb"} />
-          </div>
+        <div className="z-20">
+          <img src="images/tontura-titulo.GIF" alt="Logo tontura" />
+        </div>
+
+        <div className="absolute top-[80vh] h-full w-full z-50">
+          <ModelViewer scale="3" modelPath={"/images/kioskNEW.glb"} />
         </div>
       </div>
     </>
