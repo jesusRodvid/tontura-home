@@ -22,7 +22,7 @@
   }
 
   @font-face {
-    font-family: "Smooth Pet";
+    font-family: "SmoothPet";
     font-weight: normal;
     src: url("fonts/smoothpet.ttf") format("truetype");
   }
@@ -45,6 +45,7 @@
 
   body {
     margin: 0;
+    background-color: #fcfbff;
   }
 
   #panel {
@@ -59,16 +60,8 @@
   #read-more {
     width: 800px;
     height: 100px;
-    background-image: url(images/read.gif);
+    background-image: url(images/readguestbook.gif);
     background-repeat: repeat-x;
-    background-blend-mode: screen;
-  }
-
-  #read1 {
-    width: 100px;
-    height: 50px;
-    background-image: url(images/readbook.gif);
-    background-repeat: no-repeat;
     background-blend-mode: screen;
   }
 }
