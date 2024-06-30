@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import GltfModel from "./GltfModel";
 
-const ModelViewer = ({ modelPath, scale = 3, position = [0, 0, 0] }) => {
+const ModelViewer = ({ modelPath, scale = 4, position = [0, 0, 0] }) => {
   return (
     <Canvas>
       <ambientLight intensity={5} />

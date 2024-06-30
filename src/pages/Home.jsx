@@ -5,8 +5,8 @@ import ModelViewer from "../components/ModelViewer";
 export const Home = () => {
   return (
     <>
-      <div className="relative bg-[#fcfbff] h-full w-full">
-        <nav className="absolute font-[SmoothPet] flex flex-col lg:flex-row gap-10 text-2xl lg:gap-20 lg:text-3xl items-center justify-center top-[20vh] left-[30vw] lg:top-20 lg:left-[50vw]">
+      <div className="relative h-screen w-screen object-cover bg-no-repeat bg-[url('images/tontura-titulo.GIF')]">
+        <nav className="absolute font-[SmoothPet] flex flex-col lg:flex-row gap-10 text-2xl lg:gap-20 lg:text-3xl items-center justify-center top-[20vh] left-[30vw] lg:top-20 lg:left-[50vw] z-20">
           <Link to="/ed-1" className="hover:text-red-500 hover:cursor-pointer">
             Ediciones
           </Link>
@@ -30,11 +30,9 @@ export const Home = () => {
           </Link>
         </nav>
 
-        <div className="z-20">
-          <img src="images/tontura-titulo.GIF" alt="Logo tontura" />
-        </div>
+        <div className="absolute z-10 h-screen w-screen"></div>
 
-        <div className="absolute top-[80vh] h-full w-full z-50">
+        <div className="absolute top-[90vh] h-[200vh] w-full z-40 overflow-hidden">
           <ModelViewer scale="3" modelPath={"/images/kioskNEW.glb"} />
         </div>
       </div>
