@@ -1,6 +1,6 @@
 // import tonturaTitulo from "../assets/tonturaTitulo.mov";
 import { Link } from "react-router-dom";
-import ModelViewer from "../components/ModelViewer";
+import Scene from "../components/Scene";
 
 export const Home = () => {
   return (
@@ -29,11 +29,10 @@ export const Home = () => {
             Spotify
           </Link>
         </nav>
-
         <div className="absolute z-10 h-screen w-screen"></div>
 
         <div className="absolute top-[90vh] h-[200vh] w-full z-40 overflow-hidden">
-          <ModelViewer scale="3" modelPath={"/images/kioskNEW.glb"} />
+          <Scene modelUrl="/images/kioskNEW.glb" />
         </div>
       </div>
     </>
