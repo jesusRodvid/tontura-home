@@ -3,7 +3,7 @@
 export const EditionOne = () => {
   return (
     <>
-      <div className="font-serif flex flex-col items-center justify-center pt-[15vh] gap-5 text-white w-screen h-[200vh] bg-[url('images/pattern14.gif')]">
+      <div className="font-serif flex flex-col items-center justify-center pt-[15vh] pb-[15vh] gap-5 text-white w-screen h-full bg-[url('images/pattern14.gif')]">
         <div className="flex gap-2 lg:gap-10">
           <img
             className="flex w-full h-full object-contain"
@@ -23,43 +23,43 @@ export const EditionOne = () => {
 
         <div className="h-[20vh] w-full bg-[url('/images/31.png')] bg-repeat-x"></div>
         <div className="flex">
-          <div className="relative flex items-center justify-center">
-            <img
-              className="absolute "
-              src="images/column_left.png"
-              alt="Columna"
-            />
+          <img
+            className="flex object-cover w-[250px]"
+            src="images/ad1.gif"
+          ></img>
+          <div className="flex items-center justify-center mx-10">
             <div
               id="panel"
-              className="flex flex-col items-center justify-center gap-10 lg:px-10 lg:mx-[15vw]"
+              className="flex flex-col items-center justify-center gap-10 lg:px-5 lg:mx-[10vw]"
             >
-              <div className="lg:px-20 lg:pt-5 text-2xl font-bold lg:text-3xl">
+              <div className="lg:px-10 lg:pt-5 text-3xl font-bold lg:text-3xl">
                 An endless streaming: cuando la música descubrió el internet
               </div>
-              <div className="lg:px-20 lg:text-xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                et tellus at velit convallis dictum. Etiam sagittis, velit at
-                pretium iaculis, leo turpis scelerisque nibh, sit amet hendrerit
-                libero felis vitae mauris. Ut dignissim, risus nec faucibus
-                ultricies, urna massa vulputate ex, sed vulputate quam risus ac
-                massa. Ut fringilla nisl massa, placerat gravida nunc aliquet
-                eu. Proin ut finibus erat, non ultrices orci. Curabitur ante
-                odio, vehicula a vehicula eu, tincidunt molestie justo. Sed
-                efficitur felis nec nulla congue, a eleifend felis elementum...
+              <div className="lg:px-20 lg:text-xl font-bold text-justify">
+                Este proyecto no se entendería sin la influencia que tuvo el
+                internet de principios y finales de los 2000 en las personas que
+                han decidido llevarlo a cabo. Cuando internet irrumpió en
+                nuestra vida lo veíamos como algo casi místico. Todavía no se
+                había convertido en una capa casi que inseparable de nuestra
+                realidad. Era una actividad claramente delimitada, confinada al
+                cuarto de ordenador, el cibercafé o la biblioteca. El acto de
+                estar en internet tenía una premeditación. Abrir una app por
+                abrirla y pasar horas viendo contenido, era impensable, el
+                objetivo que teníamos la mayoría del tiempo era descubrir y
+                muchas veces descargar música. [...] <br></br> <br></br>
               </div>
               <div id="read-more" className=""></div>
               <Link
-                to="/"
+                to="/ed-1-read"
                 className="text-xl lg:text-3xl text-[blue] underline"
               >
                 LEE M&#193;S
               </Link>
             </div>
             <img
-              className="absolute self-end"
-              src="images/column_right.png"
-              alt="Columna"
-            />
+              className="flex object-cover w-[250px]"
+              src="images/ad1.gif"
+            ></img>
           </div>
         </div>
       </div>
