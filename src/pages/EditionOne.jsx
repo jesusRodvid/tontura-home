@@ -32,21 +32,24 @@ export const EditionOne = () => {
               id="panel"
               className="flex flex-col items-center justify-center gap-10 lg:px-5 lg:mx-[10vw]"
             >
-              <div className="lg:px-10 lg:pt-5 text-3xl font-bold lg:text-3xl">
-                An endless streaming: cuando la música descubrió el internet
+              <div className="lg:px-10 lg:pt-5 text-4xl font-bold lg:text-3xl">
+                Cuando la música descubrió internet
               </div>
               <div className="lg:px-20 lg:text-xl font-bold text-justify">
-                Este proyecto no se entendería sin la influencia que tuvo el
-                internet de principios y finales de los 2000 en las personas que
-                han decidido llevarlo a cabo. Cuando internet irrumpió en
-                nuestra vida lo veíamos como algo casi místico. Todavía no se
-                había convertido en una capa casi que inseparable de nuestra
-                realidad. Era una actividad claramente delimitada, confinada al
-                cuarto de ordenador, el cibercafé o la biblioteca. El acto de
-                estar en internet tenía una premeditación. Abrir una app por
-                abrirla y pasar horas viendo contenido, era impensable, el
-                objetivo que teníamos la mayoría del tiempo era descubrir y
-                muchas veces descargar música. [...] <br></br> <br></br>
+                Es el año 200X. Te despierta la alarma de tu teléfono, con el
+                que sólo puedes hacer llamadas, enviar SMS y jugar al snake, y
+                vas a la escuela. Las clases pasan sin mucho drama, comentas con
+                tus colegas que viste en la tele la tarde anterior, les hablas
+                de un video gracioso que viste en youtube y les animas a
+                buscarlo. Cuando terminas en el cole, ya en tu casa y solo
+                después de comer y hacer algunas de tus obligaciones, finalmente
+                puedes ir al ordenador de sobremesa de tu familia o si te
+                sentías más social ir a un cibercafé o la sala de informática de
+                la biblioteca municipal. Nos relacionamos con internet de una
+                forma casi &quot;pública&quot;, comunal e impersonal – era como
+                una gran enciclopedia que existía en un plano invisible y casi
+                místico, especialmente para la percepción de jóvenes usuarios de
+                internet. [...] <br></br> <br></br>
               </div>
               <div id="read-more" className=""></div>
               <Link
