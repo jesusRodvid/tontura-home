@@ -210,6 +210,7 @@ export const EditionOneReadMore = () => {
                 de una banda que si no fuera porque existe internet, su música
                 no hubiera perdurado en el tiempo.
                 <br></br>
+                <span>hola soy sarah</span>
               </div>
             </div>
             <img
