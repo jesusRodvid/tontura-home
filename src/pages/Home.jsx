@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import Scene from "../components/Scene";
 
-export const Home = () => {
+function Home(){
   return (
     <>
       <div className="relative h-screen w-screen object-cover bg-no-repeat bg-[url('images/tontura-titulo.GIF')]">
@@ -37,4 +37,6 @@ export const Home = () => {
       </div>
     </>
   );
-};
+}
+
+export default Home;

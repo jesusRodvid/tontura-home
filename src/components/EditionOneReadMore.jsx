@@ -1,6 +1,7 @@
 ﻿import { Link } from "react-router-dom";
+import SpotifyPlaylist from "./SpotifyPlaylist";
 
-export const EditionOneReadMore = () => {
+function EditionOneReadMore(){
   return (
     <>
       <div className="font-serif flex flex-col items-center justify-center pt-[15vh] pb-[15vh] gap-5 text-white w-screen h-full bg-[url('images/pattern14.gif')]">
@@ -218,7 +219,10 @@ export const EditionOneReadMore = () => {
             ></img>
           </div>
         </div>
+        <SpotifyPlaylist />
       </div>
     </>
   );
-};
+}
+
+export default EditionOneReadMore;

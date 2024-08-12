@@ -1,7 +1,7 @@
 ﻿import { Link } from "react-router-dom";
-import SpotifyPlaylist from "./SpotifyPlaylist";
+import SpotifyPlaylist from "../components/SpotifyPlaylist";
 
-export const EditionOne = () => {
+function EditionOne() {
   return (
     <>
       <div className="font-serif flex flex-col items-center justify-center pt-[15vh] pb-[15vh] gap-5 text-white w-screen h-full bg-[url('images/pattern14.gif')]">
@@ -65,9 +65,11 @@ export const EditionOne = () => {
               src="images/ad1.gif"
             ></img>
           </div>
-          <SpotifyPlaylist initialUrl="https://open.spotify.com/embed/playlist/7CLZGBydLBZZpolrZhRM19?utm_source=generator" />
         </div>
       </div>
     </>
   );
-};
+}
+
+export default EditionOne;
+

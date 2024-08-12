@@ -1,6 +1,7 @@
-﻿import { Link } from "react-router-dom";
+﻿import React from 'react';
+import { Link } from "react-router-dom";
 
-export const AboutUs = () => {
+function AboutUs(){
   return (
     <>
       <div className="relative bg-[#fcfbff] h-full w-full">
@@ -49,4 +50,7 @@ export const AboutUs = () => {
       </div>
     </>
   );
-};
+}
+
+export default AboutUs;
+
