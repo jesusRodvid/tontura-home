@@ -1,4 +1,5 @@
 ﻿import { Link } from "react-router-dom";
+import SpotifyPlaylist from "./SpotifyPlaylist";
 
 export const EditionOne = () => {
   return (
@@ -64,6 +65,7 @@ export const EditionOne = () => {
               src="images/ad1.gif"
             ></img>
           </div>
+          <SpotifyPlaylist initialUrl="https://open.spotify.com/embed/playlist/7CLZGBydLBZZpolrZhRM19?utm_source=generator" />
         </div>
       </div>
     </>
