@@ -1,7 +1,7 @@
 ﻿import { Link } from "react-router-dom";
 import SpotifyPlaylist from "./SpotifyPlaylist";
 
-function EditionOneReadMore(){
+function EditionOneReadMore() {
   return (
     <>
       <div className="font-serif flex flex-col items-center justify-center pt-[15vh] pb-[15vh] gap-5 text-white w-screen h-full bg-[url('images/pattern14.gif')]">
@@ -31,12 +31,12 @@ function EditionOneReadMore(){
           <div className="flex items-center justify-center mx-10">
             <div
               id="panel"
-              className="flex flex-col items-center justify-center gap-10 lg:px-5 lg:mx-[10vw]"
+              className="flex flex-col items-center justify-center gap-10 lg:px-5 lg:mx-[10rem]"
             >
-              <div className="lg:px-10 lg:pt-5 text-4xl font-bold lg:text-3xl">
+              <div className="flex flex-col justify-center items-center lg:px-10 lg:pt-5 text-4xl font-bold lg:text-3xl">
                 Cuando la música descubrió internet
               </div>
-              <div className="lg:px-20 lg:text-xl font-bold text-justify">
+              <div className="flex flex-col lg:px-20 lg:text-xl font-bold text-justify items-center justify-center">
                 Es el año 200X. Te despierta la alarma de tu teléfono, con el
                 que sólo puedes hacer llamadas, enviar SMS y jugar al snake, y
                 vas a la escuela. Las clases pasan sin mucho drama, comentas con
@@ -51,6 +51,11 @@ function EditionOneReadMore(){
                 una gran enciclopedia que existía en un plano invisible y casi
                 místico, especialmente para la percepción de jóvenes usuarios de
                 internet. <br></br>
+                <img
+                  className="w-1/2 object-cover mt-10"
+                  src="images/computer.jpg"
+                  alt="Un ordenador"
+                />
               </div>
               <div className="lg:px-20 lg:text-xl font-bold text-justify">
                 Decides que el tiempo que le vas a dedicar a internet esa tarde
@@ -72,7 +77,8 @@ function EditionOneReadMore(){
                 crecimiento como individuo (gustos, amistades, etc) lo hacía de
                 la mano con el desarrollo de internet. <br></br>
               </div>
-              <div className="lg:px-20 lg:text-xl font-bold text-justify">
+
+              <div className="flex flex-col justify-center items-center lg:px-20 lg:text-xl font-bold text-justify">
                 Esta experiencia fue la norma para mucha gente durante la
                 primera década de los dos mil. Era una evolución digital de los
                 antiguos modelos “analógicos” que implican ir a tiendas de
@@ -81,11 +87,16 @@ function EditionOneReadMore(){
                 artistas pequeños o escuchar la radio local. No obstante, aún
                 constituían una manera proactiva y orgánica de explorar música.
                 <br></br>
+                <img
+                  className="w-1/2 object-cover mt-10"
+                  src="images/mp3.jpg"
+                  alt="Un mp3"
+                />
               </div>
               <div className="lg:px-10 lg:pt-5 text-4xl font-bold lg:text-3xl">
                 An endless streaming
               </div>
-              <div className="lg:px-20 lg:text-xl font-bold text-justify">
+              <div className="flex flex-col justify-center items-center lg:px-20 lg:text-xl font-bold text-justify">
                 Este proyecto no se entendería sin la influencia que tuvo el
                 internet de principios y finales de los 2000 en las personas que
                 han decidido llevarlo a cabo. Todavía no se había convertido en
@@ -108,6 +119,11 @@ function EditionOneReadMore(){
                 descargando su juego él dijo &quot;La cultura no debería existir
                 sólo para los que pueden pagarla.&quot;
                 <br></br>
+                <img
+                  className="w-1/2 object-cover mt-10"
+                  src="images/ares.jpg"
+                  alt="Un screenshot de Ares"
+                />
               </div>
 
               <div className="lg:px-20 lg:text-xl font-bold text-justify">
@@ -132,7 +148,7 @@ function EditionOneReadMore(){
                 <br></br>
               </div>
 
-              <div className="lg:px-20 lg:text-xl font-bold text-justify">
+              <div className="flex flex-col justify-center items-center lg:px-20 lg:text-xl font-bold text-justify">
                 Es difícil no sentirse atrapado por la vorágine de contenido
                 creado con el principal objetivo de generar engagement y
                 números, que es lo que sostiene a las apps actuales. El arte ya
@@ -152,7 +168,7 @@ function EditionOneReadMore(){
                 Un internet más orgánico es posible.
               </div>
 
-              <div className="lg:px-20 lg:text-xl font-bold text-justify">
+              <div className="flex flex-col justify-center items-center lg:px-20 lg:text-xl font-bold text-justify">
                 Buscar información fuera de las redes sociales, ahondando en
                 blogs, artículos y foros ya no forma parte de las actividades
                 más comunes que realizan las personas en internet. Esto no lo
@@ -164,9 +180,14 @@ function EditionOneReadMore(){
                 el mundo está perdido, si no volver a introducir la posibilidad
                 de los hábitos de los primeros años de internet.
                 <br></br>
+                <img
+                  className="w-1/2 object-cover mt-10"
+                  src="images/recordstore.png"
+                  alt="Una tienda de discos"
+                />
               </div>
 
-              <div className="lg:px-20 lg:text-xl font-bold text-justify">
+              <div className=" lg:px-20 lg:text-xl font-bold text-justify">
                 Aun así, dentro de todo este flujo sin fin de información, en
                 muy raras ocasiones, el algoritmo nos recomienda algo fuera de
                 las reglas que ya como usuarios conocemos, es una anomalía
@@ -195,7 +216,7 @@ function EditionOneReadMore(){
                 <br></br>
               </div>
 
-              <div className="lg:px-20 pb-10 lg:text-xl font-bold text-justify">
+              <div className="flex flex-col justify-center items-center lg:px-20 pb-10 lg:text-xl font-bold text-justify">
                 Se puede volver a hacer algo nuestro el tiempo que pasamos en
                 internet, quitandolo de las manos de las grandes empresas,
                 asemejar la búsqueda digital a las exploraciones físicas. Ir a
@@ -213,12 +234,14 @@ function EditionOneReadMore(){
                 <br></br>
               </div>
             </div>
+
             <img
               className="flex object-cover w-[250px]"
               src="images/ad1.gif"
             ></img>
           </div>
         </div>
+
         <SpotifyPlaylist />
       </div>
     </>
