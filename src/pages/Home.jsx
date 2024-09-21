@@ -32,7 +32,7 @@ function Home(){
         <div className="absolute z-10 h-screen w-screen"></div>
 
         <div className="absolute top-[90vh] h-[200vh] w-full z-40 overflow-hidden">
-          <Scene modelUrl="/images/kioskNEW.glb" />
+          <Scene modelUrl="/images/mymagazinerack.glb" />
         </div>
       </div>
     </>
